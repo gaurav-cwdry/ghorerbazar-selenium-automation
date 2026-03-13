@@ -1,0 +1,4 @@
+Product Hover Effect Test
+-------------------------
+Result: FAIL
+No product cards detected

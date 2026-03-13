@@ -1,0 +1,5 @@
+SEO URL Structure Test
+-----------------------
+URL Tested: https://ghorerbazar.com/shop
+Result: PASS
+URL structure is readable and SEO friendly

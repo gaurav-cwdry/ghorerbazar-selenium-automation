@@ -1,0 +1,31 @@
+Product Description Section Test
+---------------------------------
+Result: FAIL
+Error: Message: element not interactable
+  (Session info: chrome=145.0.7632.160); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0xf77dd3
+	0xf77e14
+	0xd81bee
+	0xdcd354
+	0xdc1e88
+	0xdeea3c
+	0xdc18c4
+	0xdeec04
+	0xe0b621
+	0xdee7d6
+	0xdc0049
+	0xdc0e04
+	0x11d6924
+	0x11d1bf7
+	0x11ef5a0
+	0xf90f58
+	0xf9891d
+	0xf80648
+	0xf80812
+	0xf6a21a
+	0x76775d49
+	0x77a6d81b
+	0x77a6d7a1
+

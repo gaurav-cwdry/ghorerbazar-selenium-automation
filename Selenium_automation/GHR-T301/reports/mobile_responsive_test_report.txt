@@ -1,0 +1,9 @@
+Mobile Responsiveness Test
+---------------------------
+URL: https://ghorerbazar.com/shop
+Viewport: 375x812
+Product cards found: 24
+Scroll Width: 505
+Client Width: 485
+Result: FAIL
+Layout may not be responsive or product cards not detected

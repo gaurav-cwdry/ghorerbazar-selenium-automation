@@ -1,0 +1,5 @@
+Product Card Display Test Report
+--------------------------------
+URL: https://ghorerbazar.com/shop
+Total Product Cards Found: 13
+Result: passed
