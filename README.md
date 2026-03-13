@@ -1,36 +1,52 @@
-# Ghorerbazar Selenium Automation
+# 🧪 Ghorerbazar Selenium Automation Framework
 
-This repository contains **Selenium automation test scripts** for testing the Ghorerbazar e-commerce website.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Selenium](https://img.shields.io/badge/Selenium-Automation-green)
+![Testing](https://img.shields.io/badge/Test%20Automation-QA-orange)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black)
 
-The project was developed to automate functional test cases and validate different features of the website using **Python and Selenium WebDriver**.
+This repository contains **Selenium automation test scripts** developed for testing the **Ghorerbazar e-commerce website**.
+
+The project automates multiple functional test cases to validate website behavior using **Python and Selenium WebDriver**.
 
 Each automation script corresponds to a **Jira Test Case ID executed using Zephyr Test Management**.
 
 ---
 
-## Project Overview
+# 📌 Project Overview
 
-This project automates multiple test scenarios for the Ghorerbazar web application including product listing, cart functionality, UI validation, and responsiveness.
+This project demonstrates practical experience in **web automation testing**.
 
-The goal of this project is to demonstrate **web automation testing practices using Selenium**.
+The automation scripts validate different modules of the web application including:
+
+- Product listing
+- Product details
+- Cart functionality
+- UI validation
+- Mobile responsiveness
+- Navigation behavior
+
+The goal of this project is to showcase **automation testing skills using Selenium**.
 
 ---
 
-## Tools & Technologies
+# 🛠 Tools & Technologies
 
 - Python
 - Selenium WebDriver
 - WebDriver Manager
-- Requests
+- Requests Library
 - Pytest
 - VS Code
 - Git & GitHub
 - Jira
-- Zephyr
+- Zephyr Test Management
 
 ---
 
-## Project Structure
+# 📂 Project Structure
+
+
 ghorerbazar-selenium-automation
 │
 ├── tests
@@ -64,78 +80,139 @@ ghorerbazar-selenium-automation
 └── README.md
 
 
+Each folder represents an automated test case mapped with a **Jira Test Case ID**.
+
 ---
 
-## Test Coverage
+# ✅ Test Coverage
 
-The automation scripts cover the following test scenarios:
+The automation scripts cover the following scenarios:
 
 - Product listing validation
 - Product card display verification
-- Product hover effect validation
+- Product hover effect testing
 - Product image click navigation
 - Product description verification
 - Product grid alignment validation
 - Pagination navigation testing
 - Add to cart functionality
-- Broken product image detection
+- Broken image detection
 - SEO URL structure validation
 - Product listing responsiveness (mobile view)
-- Page refresh stability validation
+- Page refresh stability testing
 
-Each test case corresponds to a **Jira Test Case ID (GHR-TXXX)**.
+Each test corresponds to a **Jira Test Case ID (GHR-TXXX)**.
 
 ---
 
-## Installation
+# ⚙ Installation
 
 Clone the repository:
-git clone https://github.com/gaurav-cwdry/ghorerbazar-selenium-automation.git
 
 
-Navigate to the project folder:
+git clone https://github.com/YOUR_USERNAME/ghorerbazar-selenium-automation.git
+
+
+Navigate to project folder:
+
+
 cd ghorerbazar-selenium-automation
 
+
 Install dependencies:
+
+
 pip install -r requirements.txt
 
-## Test Evidence
 
-Each test execution generates:
+---
+
+# ▶ Running Automation Tests
+
+Run any test script using Python.
+
+Example:
+
+
+python tests/GHR-T319/test_add_to_cart.py
+
+
+Example:
+
+
+python tests/GHR-T316/test_product_description.py
+
+
+Each script runs a test case and generates test evidence.
+
+---
+
+# 📸 Test Evidence
+
+Each automation test generates the following artifacts:
 
 - Screenshots
 - Test execution reports
 - Selenium automation scripts
 
-These artifacts are stored inside the following directories:
+Generated files are stored in:
+
+
 screenshots/
 reports/
 
 
-## Test Management
+These act as **automation execution evidence**.
+
+---
+
+# 📊 Test Management
 
 Test cases are managed using:
 
 - **Jira**
 - **Zephyr Test Management**
 
-Each automation script is mapped with a **Zephyr test case execution**.
+Each automation script corresponds to a **Zephyr test execution**.
 
 ---
 
-## Author
+# 📦 Requirements
+
+The project requires the following Python libraries:
+
+
+selenium
+webdriver-manager
+requests
+pytest
+pytest-html
+pytest-xdist
+python-dotenv
+colorama
+
+
+Install dependencies using:
+
+
+pip install -r requirements.txt
+
+
+---
+
+# 👨‍💻 Author
 Gourab Chowdhury
-Automation Testing Intern  
-Selenium Web Automation using Python
+Automation Testing Intern
 
----
-
-## Notes
-
-This project demonstrates practical experience in:
+This project demonstrates hands-on experience in:
 
 - Selenium automation
 - Web UI testing
 - Test case automation
 - Automation reporting
 - Test management integration
+
+---
+
+# ⭐ Notes
+This repository was created as part of an automation testing project to demonstrate Selenium automation practices for web application testing.
