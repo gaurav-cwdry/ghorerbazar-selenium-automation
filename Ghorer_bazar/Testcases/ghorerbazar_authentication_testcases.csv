@@ -1,0 +1,32 @@
+Test ID,Summary,Description,Test Status,Reporter,Assignee,Test Type,Test Step,Data,Expected Result
+TC-AUTH-001,Verify login page accessibility,Ensure login page loads successfully,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1.Open https://ghorerbazar.com
+2.Click login/account button",N/A,Login page should load successfully
+TC-AUTH-002,Verify login form fields visibility,Ensure email and password fields appear,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open login page,N/A,Email and password fields visible
+TC-AUTH-003,Verify login with valid credentials,Validate successful login,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter valid email and password then click login,Valid user credentials,User should login successfully
+TC-AUTH-004,Verify login with invalid password,Validate system behavior with wrong password,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter valid email and invalid password,Invalid password,Error message should appear
+TC-AUTH-005,Verify login with unregistered email,Validate login attempt with unknown email,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter unregistered email and password,Unknown email,Error message displayed
+TC-AUTH-006,Verify login with empty fields,Ensure validation appears for empty fields,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click login without entering credentials,Empty input,Validation message displayed
+TC-AUTH-007,Verify email format validation,Ensure invalid email format rejected,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter invalid email format,abc@,Validation error shown
+TC-AUTH-008,Verify password masking,Ensure password characters are hidden,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Type password in password field,Password input,Password characters masked
+TC-AUTH-009,Verify remember me functionality,Ensure remember me option works,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Login with remember me enabled,Valid credentials,User session remembered
+TC-AUTH-010,Verify logout functionality,Ensure user can logout successfully,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Login then click logout,N/A,User logged out successfully
+TC-AUTH-011,Verify session expiration,Ensure session expires after inactivity,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Login and remain idle,N/A,User prompted to login again
+TC-AUTH-012,Verify account icon after login,Ensure account icon visible after login,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Login to account,Valid credentials,Account icon displayed
+TC-AUTH-013,Verify incorrect password attempts handling,Ensure multiple failed attempts handled,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter wrong password multiple times,Invalid password,System prevents repeated attempts
+TC-AUTH-014,Verify login button disabled for invalid input,Ensure button disabled if fields invalid,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter invalid email format,Invalid email,Login button disabled or validation triggered
+TC-AUTH-015,Verify password minimum length validation,Ensure password length enforced,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter short password,Password < required length,Validation message displayed
+TC-AUTH-016,Verify forgot password link visibility,Ensure forgot password option appears,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open login page,N/A,Forgot password link visible
+TC-AUTH-017,Verify forgot password workflow,Ensure password reset email can be requested,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click forgot password and enter email,Registered email,Password reset email sent
+TC-AUTH-018,Verify reset password link functionality,Ensure reset password link works,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open reset password email link,Reset link,Password reset page opens
+TC-AUTH-019,Verify new password submission,Ensure user can set new password,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter new password and confirm,New password,Password updated successfully
+TC-AUTH-020,Verify login after password reset,Ensure user can login after reset,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Login with new password,Updated credentials,Login successful
+TC-AUTH-021,Verify login page responsiveness mobile,Ensure login page responsive,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Resize browser to mobile view,375px width,Login page layout responsive
+TC-AUTH-022,Verify login page responsiveness tablet,Ensure tablet layout works,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Resize browser to tablet view,768px width,Layout responsive
+TC-AUTH-023,Verify authentication across browsers,Ensure login works across browsers,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Test login in Chrome/Firefox,Browser type,Login works correctly
+TC-AUTH-024,Verify login page load performance,Ensure login page loads quickly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open login page,N/A,Page loads within 3 seconds
+TC-AUTH-025,Verify login security via HTTPS,Ensure login page uses secure connection,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Observe URL in browser,N/A,HTTPS enabled
+TC-AUTH-026,Verify keyboard accessibility for login form,Ensure keyboard navigation works,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Navigate form using TAB key,Keyboard input,Fields accessible via keyboard
+TC-AUTH-027,Verify login error message clarity,Ensure clear error messages displayed,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter wrong credentials,Invalid credentials,Clear error message shown
+TC-AUTH-028,Verify logout redirect behavior,Ensure user redirected after logout,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Logout from account,N/A,User redirected to homepage
+TC-AUTH-029,Verify authentication state persistence,Ensure session maintained across pages,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Login then navigate pages,Valid credentials,User remains logged in
+TC-AUTH-030,Verify authentication protection for restricted pages,Ensure restricted pages require login,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Access account page without login,N/A,User redirected to login page

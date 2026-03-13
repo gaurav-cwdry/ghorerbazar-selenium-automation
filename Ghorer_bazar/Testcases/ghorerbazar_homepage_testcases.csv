@@ -1,0 +1,26 @@
+Test ID,Summary,Description,Test Status,Reporter,Assignee,Test Type,Test Step,Data,Expected Result
+TC-HP-001,Verify homepage loads successfully,Validate that the homepage of GhorerBazar loads without errors,TODO,CS,QA Team,Manual / Selenium Automation,Navigate to https://ghorerbazar.com,URL: https://ghorerbazar.com,Homepage should load successfully
+TC-HP-002,Verify homepage logo visibility,Ensure website logo is visible and correctly positioned,TODO,CS,QA Team,Manual / Selenium Automation,Open homepage → Locate logo in header,N/A,Logo should be visible
+TC-HP-003,Verify logo redirects to homepage,Check clicking logo returns user to homepage,TODO,CS,QA Team,Manual / Selenium Automation,Open any page → Click logo,N/A,User redirected to homepage
+TC-HP-004,Verify navigation menu visibility,Validate main navigation menu items are visible,TODO,CS,QA Team,Manual / Selenium Automation,Open homepage → Observe header navigation,N/A,Navigation menu displayed
+TC-HP-005,Verify homepage banner loading,Check promotional banners load correctly,TODO,CS,QA Team,Manual / Selenium Automation,Open homepage → Observe banners,N/A,Banners load without distortion
+TC-HP-006,Verify homepage product section visibility,Ensure featured product sections appear,TODO,CS,QA Team,Manual / Selenium Automation,Open homepage → Scroll down,N/A,Featured products visible
+TC-HP-007,Verify homepage category section,Validate product categories appear correctly,TODO,CS,QA Team,Manual / Selenium Automation,Open homepage → Scroll to category section,N/A,Categories displayed
+TC-HP-008,Verify search bar presence,Ensure search bar appears in header,TODO,CS,QA Team,Manual / Selenium Automation,Open homepage → Locate search bar,N/A,Search bar visible
+TC-HP-009,Verify search bar accepts input,Check search field allows typing,TODO,CS,QA Team,Manual / Selenium Automation,Enter 'Ghee' in search field,Keyword: Ghee,Text accepted
+TC-HP-010,Verify homepage footer visibility,Ensure footer section appears,TODO,CS,QA Team,Manual / Selenium Automation,Scroll to bottom of homepage,N/A,Footer visible
+TC-HP-011,Verify contact information in footer,Check footer contact info displayed,TODO,CS,QA Team,Manual / Selenium Automation,Scroll to footer,N/A,Contact info visible
+TC-HP-012,Verify social media icons,Validate social media links appear,TODO,CS,QA Team,Manual / Selenium Automation,Scroll to footer → Locate icons,N/A,Icons displayed
+TC-HP-013,Verify homepage responsiveness desktop,Validate homepage layout on desktop,TODO,CS,QA Team,Manual / Selenium Automation,Open site on desktop resolution,1920x1080,Layout responsive
+TC-HP-014,Verify homepage responsiveness tablet,Validate homepage layout on tablet,TODO,CS,QA Team,Manual / Selenium Automation,Open site on tablet resolution,768px width,Layout responsive
+TC-HP-015,Verify homepage responsiveness mobile,Validate homepage layout on mobile,TODO,CS,QA Team,Manual / Selenium Automation,Open site on mobile resolution,375px width,Layout responsive
+TC-HP-016,Verify homepage product images load,Ensure product images appear correctly,TODO,CS,QA Team,Manual / Selenium Automation,Open homepage → Observe product images,N/A,Images load correctly
+TC-HP-017,Verify clicking featured product opens details,Validate product link navigation,TODO,CS,QA Team,Manual / Selenium Automation,Click featured product,N/A,Product detail page opens
+TC-HP-018,Verify homepage loading speed,Measure homepage load time,TODO,CS,QA Team,Manual / Selenium Automation,Open homepage and record load time,N/A,Load time < 3 seconds
+TC-HP-019,Verify homepage cart icon,Ensure cart icon visible in header,TODO,CS,QA Team,Manual / Selenium Automation,Open homepage → Locate cart icon,N/A,Cart icon visible
+TC-HP-020,Verify homepage user account icon,Ensure account/login icon visible,TODO,CS,QA Team,Manual / Selenium Automation,Open homepage → Locate user icon,N/A,Account icon visible
+TC-HP-021,Verify homepage refresh functionality,Validate page reload works correctly,TODO,CS,QA Team,Manual / Selenium Automation,Refresh homepage,N/A,Page reloads without errors
+TC-HP-022,Verify homepage scroll functionality,Ensure scrolling works smoothly,TODO,CS,QA Team,Manual / Selenium Automation,Scroll homepage up and down,N/A,Page scrolls smoothly
+TC-HP-023,Verify homepage links not broken,Validate links open correctly,TODO,CS,QA Team,Manual / Selenium Automation,Click random homepage links,N/A,Links redirect correctly
+TC-HP-024,Verify homepage product price display,Ensure product prices visible,TODO,CS,QA Team,Manual / Selenium Automation,Open homepage → Observe prices,N/A,Prices displayed
+TC-HP-025,Verify homepage product add-to-cart button,Check add-to-cart button visible,TODO,CS,QA Team,Manual / Selenium Automation,Open homepage → Locate product card,N/A,Add-to-cart button visible

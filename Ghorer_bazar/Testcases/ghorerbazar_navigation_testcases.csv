@@ -1,0 +1,26 @@
+Test ID,Summary,Description,Test Status,Reporter,Assignee,Test Type,Test Step,Data,Expected Result
+TC-NAV-001,Verify navigation menu visibility,Ensure the main navigation menu is visible on homepage,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open https://ghorerbazar.com → Observe header section,N/A,Navigation menu should be visible
+TC-NAV-002,Verify navigation menu alignment,Validate menu items are properly aligned in header,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open homepage → Inspect header menu layout,N/A,Menu items should be aligned correctly
+TC-NAV-003,Verify clicking 'Home' redirects to homepage,Validate Home menu navigation,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click Home menu item,N/A,User redirected to homepage
+TC-NAV-004,Verify product category navigation,Ensure clicking category navigates correctly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click any product category from menu,Category link,User redirected to category page
+TC-NAV-005,Verify dropdown categories open,Check dropdown categories expand on hover/click,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Hover on category menu,N/A,Dropdown menu appears
+TC-NAV-006,Verify dropdown links navigation,Validate dropdown links open correct pages,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click dropdown category link,Category name,Correct product list page opens
+TC-NAV-007,Verify search icon visibility in navigation,Ensure search icon is visible,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Observe header navigation bar,N/A,Search icon should be visible
+TC-NAV-008,Verify cart icon visibility in navigation,Ensure cart icon appears in navigation bar,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Observe header navigation bar,N/A,Cart icon visible
+TC-NAV-009,Verify user account icon visibility,Ensure login/account icon is visible,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Observe header navigation bar,N/A,Account icon visible
+TC-NAV-010,Verify clicking cart icon opens cart page,Validate cart icon functionality,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click cart icon,N/A,Cart page opens
+TC-NAV-011,Verify clicking login icon opens login page,Validate account icon navigation,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click user/login icon,N/A,Login page opens
+TC-NAV-012,Verify navigation menu responsiveness,Ensure navigation adapts on smaller screens,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Resize browser to tablet/mobile,N/A,Responsive navigation appears
+TC-NAV-013,Verify mobile navigation menu toggle,Validate hamburger menu functionality,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open site on mobile → Tap hamburger icon,Mobile resolution,Mobile menu opens
+TC-NAV-014,Verify mobile menu links navigation,Ensure mobile menu links work,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Tap category link in mobile menu,N/A,Correct page opens
+TC-NAV-015,Verify navigation links are not broken,Ensure navigation links work correctly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click multiple navigation links,N/A,Links redirect without error
+TC-NAV-016,Verify navigation menu load performance,Validate menu loads quickly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open homepage and observe menu load time,N/A,Menu loads instantly
+TC-NAV-017,Verify navigation hover effect,Ensure hover effect visible on menu items,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Hover cursor over menu items,N/A,Hover highlight appears
+TC-NAV-018,Verify navigation active state indicator,Check active page indicator,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open category page,N/A,Current page highlighted in menu
+TC-NAV-019,Verify navigation accessibility via keyboard,Validate keyboard navigation,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Use TAB key to navigate menu,Keyboard input,Menu items accessible
+TC-NAV-020,Verify navigation links open correct URL,Ensure links open correct destination,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Right click menu item → open link,N/A,Correct URL opens
+TC-NAV-021,Verify navigation scroll behavior,Ensure menu stays accessible during scroll,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Scroll homepage,N/A,Navigation remains accessible
+TC-NAV-022,Verify menu item text visibility,Ensure menu text readable,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Observe menu text color and font,N/A,Text clearly visible
+TC-NAV-023,Verify navigation menu compatibility across browsers,Validate navigation across browsers,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open site in Chrome/Firefox/Edge,Browser names,Navigation works consistently
+TC-NAV-024,Verify navigation menu click response time,Measure response after click,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click category link,N/A,Page loads within acceptable time
+TC-NAV-025,Verify navigation menu layout on high resolution screens,Validate layout on large screens,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open site on 1920x1080 resolution,1920x1080,Menu layout remains correct

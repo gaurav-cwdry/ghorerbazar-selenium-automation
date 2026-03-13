@@ -1,0 +1,27 @@
+Test ID,Summary,Description,Test Status,Reporter,Assignee,Test Type,Test Step,Data,Expected Result
+TC-CON-001,Verify contact page accessibility,Ensure contact page loads successfully,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1.Open https://ghorerbazar.com
+2.Navigate to Contact page",N/A,Contact page should load successfully
+TC-CON-002,Verify contact form visibility,Ensure contact form fields appear,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open contact page,N/A,Contact form should be visible
+TC-CON-003,Verify name field presence,Ensure name input field exists,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open contact page and inspect form,N/A,Name field visible
+TC-CON-004,Verify email field presence,Ensure email input field exists,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open contact page,N/A,Email field visible
+TC-CON-005,Verify message field presence,Ensure message textarea exists,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open contact page,N/A,Message field visible
+TC-CON-006,Verify submit button visibility,Ensure submit button appears,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open contact page,N/A,Submit button visible
+TC-CON-007,Verify valid form submission,Validate form submission with valid data,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"Enter valid name, email, message then click submit",Valid form data,Form submitted successfully
+TC-CON-008,Verify required field validation,Ensure validation appears for empty fields,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Submit form without entering data,Empty form,Validation error displayed
+TC-CON-009,Verify email format validation,Ensure invalid email rejected,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter invalid email format,abc@,Validation message displayed
+TC-CON-010,Verify long message submission,Validate system accepts long messages,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter long message text then submit,Long message,Form should submit successfully
+TC-CON-011,Verify special characters in message,Ensure system handles special characters,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter message with special characters,@#!$%^,Message accepted without crash
+TC-CON-012,Verify contact form reset after submission,Ensure fields clear after submit,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Submit valid form,Valid data,Form fields reset
+TC-CON-013,Verify success confirmation message,Ensure success message appears,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Submit contact form,Valid data,Confirmation message displayed
+TC-CON-014,Verify contact page responsiveness mobile,Ensure layout works on mobile,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Resize browser to mobile resolution,375px width,Page layout responsive
+TC-CON-015,Verify contact page responsiveness tablet,Ensure layout works on tablet,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Resize browser to tablet resolution,768px width,Layout responsive
+TC-CON-016,Verify contact page cross browser compatibility,Ensure page works across browsers,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open contact page in Chrome/Firefox,Browser type,Page works correctly
+TC-CON-017,Verify contact page load performance,Ensure page loads quickly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open contact page,N/A,Page loads within 3 seconds
+TC-CON-018,Verify contact page scroll functionality,Ensure scrolling works correctly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Scroll contact page,N/A,Page scrolls smoothly
+TC-CON-019,Verify keyboard accessibility,Ensure form accessible via keyboard,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Use TAB key to navigate form,Keyboard input,Fields accessible via keyboard
+TC-CON-020,Verify contact information visibility,Ensure company contact details visible,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open contact page,N/A,Contact details displayed
+TC-CON-021,Verify phone number link functionality,Validate phone link works if clickable,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click phone number,Phone number,Phone link works correctly
+TC-CON-022,Verify email link functionality,Validate email link works if clickable,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click email address,Email address,Email client opens
+TC-CON-023,Verify map display if available,Ensure map appears correctly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open contact page,N/A,Map displayed properly
+TC-CON-024,Verify contact form security validation,Ensure script injection prevented,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter script tags in message,<script>alert(1)</script>,Input sanitized and no script executed
+TC-CON-025,Verify contact page refresh stability,Ensure page works after refresh,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Refresh contact page,N/A,Page reloads correctly

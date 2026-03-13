@@ -1,0 +1,42 @@
+Test ID,Summary,Description,Test Status,Reporter,Assignee,Test Type,Test Step,Data,Expected Result
+TC-CHK-001,Verify checkout page opens from cart,Ensure user can navigate to checkout from cart,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1.Open cart page
+2.Click Checkout button",N/A,Checkout page should open successfully
+TC-CHK-002,Verify checkout page loading,Validate checkout page loads without errors,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open checkout page,N/A,Checkout page should load successfully
+TC-CHK-003,Verify order summary visibility,Ensure order summary section appears,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open checkout page,N/A,Order summary should be visible
+TC-CHK-004,Verify product details in order summary,Ensure product name appears in order summary,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open checkout page,N/A,Correct product name displayed
+TC-CHK-005,Verify product price in order summary,Ensure product price appears correctly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open checkout page,N/A,Correct product price displayed
+TC-CHK-006,Verify subtotal calculation,Validate subtotal equals sum of product prices,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Add multiple items then open checkout,Multiple products,Subtotal calculated correctly
+TC-CHK-007,Verify shipping address form visibility,Ensure shipping form fields appear,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open checkout page,N/A,Shipping form fields displayed
+TC-CHK-008,Verify entering valid shipping information,Validate user can enter shipping details,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"Enter valid name, address, phone",Valid data,Form accepts input successfully
+TC-CHK-009,Verify required field validation,Ensure required fields show validation errors,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Submit form without entering data,Empty fields,Validation message should appear
+TC-CHK-010,Verify phone number field validation,Validate phone number format,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter invalid phone number,Invalid phone,Validation error displayed
+TC-CHK-011,Verify email field validation,Ensure valid email format required,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter invalid email,abc@,Validation error shown
+TC-CHK-012,Verify shipping address save functionality,Ensure address saves correctly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter valid shipping info then continue,Valid address,Address saved successfully
+TC-CHK-013,Verify shipping method selection,Ensure user can select shipping method,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Select available shipping option,Shipping option,Selected shipping method applied
+TC-CHK-014,Verify shipping cost display,Ensure shipping fee displayed correctly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Select shipping method,N/A,Shipping cost visible
+TC-CHK-015,Verify total order amount calculation,Ensure total includes subtotal + shipping,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Complete shipping step,N/A,Total amount calculated correctly
+TC-CHK-016,Verify payment method options visibility,Ensure payment options displayed,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open payment section,N/A,Payment options visible
+TC-CHK-017,Verify cash on delivery option,Validate COD option selection,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Select Cash on Delivery,COD,COD selected successfully
+TC-CHK-018,Verify online payment option,Validate online payment method selection,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Select online payment,Online payment,Payment method selected
+TC-CHK-019,Verify place order button visibility,Ensure place order button appears,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open checkout page,N/A,Place Order button visible
+TC-CHK-020,Verify order placement functionality,Validate order can be placed successfully,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter valid details then click Place Order,Valid order data,Order placed successfully
+TC-CHK-021,Verify order confirmation page,Ensure confirmation page appears,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Complete checkout,N/A,Order confirmation page displayed
+TC-CHK-022,Verify order confirmation message,Ensure success message appears,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Place order,N/A,Order confirmation message displayed
+TC-CHK-023,Verify order ID generation,Ensure system generates order ID,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Place order successfully,N/A,Unique order ID generated
+TC-CHK-024,Verify checkout page responsiveness mobile,Validate checkout layout on mobile,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Resize browser to mobile resolution,375px width,Checkout layout responsive
+TC-CHK-025,Verify checkout page responsiveness tablet,Validate layout on tablet,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Resize browser to tablet resolution,768px width,Layout responsive
+TC-CHK-026,Verify checkout page cross browser compatibility,Ensure checkout works across browsers,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open checkout in Chrome/Firefox,Browser type,Checkout functions correctly
+TC-CHK-027,Verify checkout page load performance,Ensure checkout page loads quickly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open checkout page,N/A,Page loads within 3 seconds
+TC-CHK-028,Verify checkout refresh behavior,Ensure data persists after refresh,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter address then refresh page,N/A,Form data persists or reloads safely
+TC-CHK-029,Verify checkout cancel navigation,Validate user can return to cart,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click back button,N/A,User redirected to cart page
+TC-CHK-030,Verify multiple item checkout,Ensure checkout works with multiple products,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Add multiple products then checkout,Multiple products,All products appear in order summary
+TC-CHK-031,Verify order summary accuracy,Ensure correct product quantity displayed,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Add multiple quantities,Qty:3,Correct quantity shown
+TC-CHK-032,Verify checkout security via HTTPS,Ensure checkout page uses HTTPS,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Observe browser URL,N/A,Checkout page uses secure HTTPS connection
+TC-CHK-033,Verify checkout accessibility via keyboard,Validate keyboard navigation,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Use TAB key to navigate fields,Keyboard input,Fields accessible via keyboard
+TC-CHK-034,Verify checkout page scroll behavior,Ensure smooth scrolling,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Scroll checkout page,N/A,Page scroll works smoothly
+TC-CHK-035,Verify invalid address handling,Enter incomplete address,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Submit incomplete address,Invalid address,Error message displayed
+TC-CHK-036,Verify payment failure handling,Simulate payment failure scenario,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Attempt failed payment,Failed payment,Error message displayed
+TC-CHK-037,Verify order persistence after refresh,Refresh confirmation page,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Refresh confirmation page,N/A,Order remains recorded
+TC-CHK-038,Verify checkout stability under repeated submissions,Submit order multiple times quickly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click place order multiple times,N/A,Duplicate orders prevented
+TC-CHK-039,Verify checkout URL structure,Validate readable URL,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Observe checkout page URL,N/A,URL structured properly
+TC-CHK-040,Verify checkout session timeout handling,Simulate session timeout,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Stay idle then attempt checkout,Session timeout,User prompted to restart checkout

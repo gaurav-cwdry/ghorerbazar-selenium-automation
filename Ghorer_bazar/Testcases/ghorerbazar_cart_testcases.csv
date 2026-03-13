@@ -1,0 +1,33 @@
+Test ID,Summary,Description,Test Status,Reporter,Assignee,Test Type,Test Step,Data,Expected Result
+TC-CART-001,Verify add to cart from product page,Validate that user can add a product to cart,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1.Open https://ghorerbazar.com
+2.Open a product
+3.Click 'Add to Cart'",Product: Ghee,Product should be added to cart
+TC-CART-002,Verify cart icon update after adding product,Ensure cart icon count increases,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Add product to cart and observe cart icon,N/A,Cart icon count should increase
+TC-CART-003,Verify cart page opens,Validate navigation to cart page,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click cart icon in header,N/A,Cart page should open
+TC-CART-004,Verify product appears in cart,Ensure added product appears in cart,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Add product then open cart page,N/A,Product should be visible in cart
+TC-CART-005,Verify product name display in cart,Ensure product name is visible,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open cart page,N/A,Product title should be displayed
+TC-CART-006,Verify product image display in cart,Ensure image appears in cart,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open cart page and observe image,N/A,Product image should display correctly
+TC-CART-007,Verify product price display in cart,Ensure product price appears,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open cart page,N/A,Price should be visible
+TC-CART-008,Verify product quantity selector,Ensure quantity selector works,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Increase product quantity,Qty:2,Quantity should update correctly
+TC-CART-009,Verify cart total price calculation,Ensure total price updates with quantity,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Increase quantity of product,Qty:3,Total price should update accordingly
+TC-CART-010,Verify remove product from cart,Validate remove product functionality,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click remove/delete button,N/A,Product should be removed from cart
+TC-CART-011,Verify empty cart message,Ensure system displays empty cart message,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Remove all products from cart,N/A,Cart should show empty cart message
+TC-CART-012,Verify cart page refresh,Validate cart persists after refresh,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Refresh cart page,N/A,Cart items should remain
+TC-CART-013,Verify cart page responsiveness mobile,Validate cart layout on mobile,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Resize browser to mobile view,375px width,Cart layout responsive
+TC-CART-014,Verify cart page responsiveness tablet,Validate tablet layout,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Resize browser to tablet view,768px width,Cart layout responsive
+TC-CART-015,Verify cart cross-browser compatibility,Ensure cart works across browsers,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open cart page in Chrome/Firefox,Browser types,Cart page should function correctly
+TC-CART-016,Verify cart page load performance,Ensure cart loads quickly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open cart page,N/A,Cart page should load within 3 seconds
+TC-CART-017,Verify continue shopping button,Ensure continue shopping navigates to products,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click Continue Shopping button,N/A,User redirected to product listing page
+TC-CART-018,Verify cart item persistence after login,Ensure items remain after login,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Add product → login → open cart,N/A,Cart items should remain
+TC-CART-019,Verify multiple products in cart,Validate multiple items can be added,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Add different products to cart,"Products: Ghee, Honey",Multiple items should appear
+TC-CART-020,Verify cart subtotal calculation,Ensure subtotal displayed correctly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Add multiple items,N/A,Subtotal equals sum of product prices
+TC-CART-021,Verify cart item quantity decrease,Decrease quantity using minus button,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Decrease quantity,Qty:1,Quantity should reduce correctly
+TC-CART-022,Verify cart scroll functionality,Ensure scroll works with many items,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Add multiple products and scroll,N/A,Scrolling should work smoothly
+TC-CART-023,Verify cart keyboard accessibility,Validate navigation using keyboard,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Use TAB key to navigate cart elements,Keyboard input,Cart elements accessible
+TC-CART-024,Verify cart item link navigation,Ensure clicking item opens PDP,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click product name in cart,N/A,Product detail page should open
+TC-CART-025,Verify cart stability under refresh,Reload cart multiple times,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Refresh cart page multiple times,N/A,Cart should remain stable
+TC-CART-026,Verify cart page URL structure,Ensure cart page URL readable,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Observe browser URL,N/A,URL should be SEO friendly
+TC-CART-027,Verify cart icon navigation,Click cart icon repeatedly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click cart icon from different pages,N/A,Cart page should open each time
+TC-CART-028,Verify cart with invalid quantity input,Enter invalid quantity value,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Enter negative or text quantity,Invalid quantity,System should prevent invalid quantity
+TC-CART-029,Verify cart price formatting,Ensure currency formatting correct,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Observe price display,N/A,Price should display with correct currency
+TC-CART-030,Verify checkout button visibility,Ensure checkout button visible,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open cart page,N/A,Checkout button should be visible

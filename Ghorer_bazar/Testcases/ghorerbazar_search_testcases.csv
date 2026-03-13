@@ -1,0 +1,50 @@
+Test ID,Summary,Description,Test Status,Reporter,Assignee,Test Type,Test Step,Data,Expected Result
+TC-SRCH-001,Verify search bar visibility on homepage,Ensure the search input field is visible in the header section,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Open https://ghorerbazar.com
+2. Locate search input box in header",N/A,Search field should be visible and enabled
+TC-SRCH-002,Verify search field accepts English text,Validate that the search input accepts English characters,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Click search field
+2. Type 'Ghee'",Keyword: Ghee,Text should appear in the search input field
+TC-SRCH-003,Verify search field accepts Bangla text,Validate that Bangla characters can be typed in search field,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Click search field
+2. Type 'ঘি'",Keyword: ঘি,Bangla text should appear correctly
+TC-SRCH-004,Search product using English keyword,Verify relevant products appear when searching with English keywords,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Enter 'Honey'
+2. Press Enter",Keyword: Honey,Products related to Honey should appear
+TC-SRCH-005,Search product using Bangla keyword,Verify search functionality works with Bangla keywords,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Enter 'মধু'
+2. Press Enter",Keyword: মধু,Relevant honey products should appear
+TC-SRCH-006,Search product using mixed Bangla-English keyword,Verify search handles mixed language queries,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Enter 'Pure ঘি'
+2. Press Enter",Keyword: Pure ঘি,Relevant ghee products should appear
+TC-SRCH-007,Search product using lowercase English keyword,Ensure search works regardless of lowercase input,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Enter 'ghee'
+2. Press Enter",Keyword: ghee,Relevant ghee products should appear
+TC-SRCH-008,Search product using uppercase English keyword,Ensure search is case-insensitive,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Enter 'GHEE'
+2. Press Enter",Keyword: GHEE,Relevant products should appear
+TC-SRCH-009,Search using partial keyword,Verify search works with partial product name,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Enter 'Gee'
+2. Press Enter",Keyword: Gee,Matching products should appear
+TC-SRCH-010,Search using Bangla partial keyword,Validate partial Bangla keyword search,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Enter 'মধ'
+2. Press Enter",Keyword: মধ,Related products should appear
+TC-SRCH-011,Search using invalid keyword,Verify system behavior when no products match,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Enter 'xyzabc'
+2. Press Enter",Keyword: xyzabc,System should show 'No products found' message
+TC-SRCH-012,Search using numeric input,Ensure numeric values do not break search functionality,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Enter '123'
+2. Press Enter",Keyword: 123,System handles input without errors
+TC-SRCH-013,Search using special characters,Verify system stability with special characters,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Enter '@@@'
+2. Press Enter",Keyword: @@@,Search should not crash the system
+TC-SRCH-014,Search with empty query,Verify behavior when search is submitted without text,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Click search
+2. Press Enter without typing",Empty input,System should show validation or remain on same page
+TC-SRCH-015,Verify search button functionality,Ensure clicking search icon triggers search,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Enter 'Ghee'
+2. Click search icon",Keyword: Ghee,Search results page should load
+TC-SRCH-016,Verify search using Enter key,Ensure pressing Enter triggers search,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Enter 'Honey'
+2. Press Enter",Keyword: Honey,Search results should appear
+TC-SRCH-017,Verify search result product titles,Ensure product names appear in search results,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Search 'Ghee'
+2. Observe product titles",Keyword: Ghee,Product titles should be visible
+TC-SRCH-018,Verify product images in search results,Ensure images appear correctly in results,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Search 'Honey'
+2. Observe product images",Keyword: Honey,Images should load correctly
+TC-SRCH-019,Verify product price visibility in results,Ensure product prices are visible in results,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Search 'Ghee'
+2. Observe price field",Keyword: Ghee,Price should be displayed
+TC-SRCH-020,Verify clicking search result opens product page,Ensure user can open product details from search results,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Search product
+2. Click any result",Keyword: Honey,Product detail page should open
+TC-SRCH-021,Verify search results pagination,Ensure pagination works if many products found,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Search popular keyword
+2. Scroll results",Keyword: Honey,Pagination should work properly
+TC-SRCH-022,Verify search results load time,Ensure search results load quickly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Enter keyword
+2. Press Enter",Keyword: Ghee,Results should load within acceptable time (<3s)
+TC-SRCH-023,Verify search functionality on mobile device,Ensure search works correctly on mobile devices,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Open site in mobile view
+2. Search product",Keyword: Honey,Results should display correctly
+TC-SRCH-024,Verify search functionality across browsers,Validate search works across different browsers,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1. Open Chrome/Firefox/Edge
+2. Search keyword",Keyword: Ghee,Consistent results should appear
+TC-SRCH-025,Verify search suggestions/autocomplete if available,Ensure suggestion dropdown appears when typing,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,1. Type 'Gh' in search box,Keyword: Gh,Suggestion list should appear

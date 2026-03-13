@@ -1,0 +1,38 @@
+Test ID,Summary,Description,Test Status,Reporter,Assignee,Test Type,Test Step,Data,Expected Result
+TC-PDP-001,Verify product details page loads,Validate PDP loads when clicking product from listing,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,"1.Open https://ghorerbazar.com
+2.Navigate to any category
+3.Click a product",Product: Ghee,Product details page loads successfully
+TC-PDP-002,Verify product title visibility,Ensure product title is displayed on PDP,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open product details page,N/A,Product title visible
+TC-PDP-003,Verify product image display,Ensure product images appear correctly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open PDP and observe product image,N/A,Product image loads without error
+TC-PDP-004,Verify product price display,Validate price is displayed clearly,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open PDP,N/A,Price visible near product title
+TC-PDP-005,Verify discounted price display,Validate discount price appears if available,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open discounted product page,Discount product,Correct discount price shown
+TC-PDP-006,Verify product description section,Ensure description section exists,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Scroll PDP,N/A,Product description visible
+TC-PDP-007,Verify product quantity selector,Validate quantity selector functionality,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Locate quantity field,Qty: 2,Quantity field allows selection
+TC-PDP-008,Verify add to cart button visibility,Ensure Add to Cart button is visible,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open PDP,N/A,Add to Cart button visible
+TC-PDP-009,Verify add to cart functionality,Validate product can be added to cart,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click Add to Cart,Product: Honey,Product added to cart successfully
+TC-PDP-010,Verify cart update after adding product,Ensure cart icon updates,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Add product to cart,N/A,Cart count increases
+TC-PDP-011,Verify product image zoom,Validate zoom functionality on image,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Hover over product image,N/A,Zoom effect appears
+TC-PDP-012,Verify image gallery navigation,Ensure multiple images can be viewed,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click next image thumbnail,N/A,Next product image displayed
+TC-PDP-013,Verify product stock availability label,Ensure stock status visible,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open PDP,N/A,Stock status displayed
+TC-PDP-014,Verify product SKU display,Validate SKU or product code display,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open PDP,N/A,SKU displayed if available
+TC-PDP-015,Verify product breadcrumb navigation,Validate breadcrumb path,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open PDP,N/A,Breadcrumb shows category path
+TC-PDP-016,Verify related products section,Ensure related products appear,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Scroll PDP,N/A,Related products visible
+TC-PDP-017,Verify clicking related product opens PDP,Validate navigation,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Click related product,N/A,New product page opens
+TC-PDP-018,Verify product rating display,Validate rating stars visible,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open PDP,N/A,Rating stars displayed
+TC-PDP-019,Verify review section visibility,Ensure review section exists,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Scroll PDP,N/A,Review section visible
+TC-PDP-020,Verify share buttons visibility,Validate social share icons,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open PDP,N/A,Share icons visible
+TC-PDP-021,Verify product page responsiveness mobile,Validate mobile layout,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Resize browser to mobile view,375px width,Layout responsive
+TC-PDP-022,Verify product page responsiveness tablet,Validate tablet layout,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Resize browser to tablet view,768px width,Layout responsive
+TC-PDP-023,Verify product page cross browser compatibility,Validate on Chrome/Firefox,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open PDP in multiple browsers,Browser types,Page works consistently
+TC-PDP-024,Verify page loading performance,Measure PDP load speed,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open PDP,N/A,Page loads within 3 seconds
+TC-PDP-025,Verify broken product images,Ensure no broken images appear,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Inspect product images,N/A,Images load correctly
+TC-PDP-026,Verify product description formatting,Ensure description text formatted,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Observe description section,N/A,Text readable and formatted
+TC-PDP-027,Verify add to cart with multiple quantity,Validate cart update,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Select quantity 3 then Add to Cart,Qty:3,Cart updated correctly
+TC-PDP-028,Verify product page refresh stability,Validate refresh behavior,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Refresh PDP,N/A,Page reloads correctly
+TC-PDP-029,Verify back navigation,Validate back button behavior,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Open PDP then click browser back,N/A,User returns to listing page
+TC-PDP-030,Verify product page scroll behavior,Ensure smooth scrolling,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Scroll PDP,N/A,Page scrolls smoothly
+TC-PDP-031,Verify product title SEO format,Validate readable title,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Inspect title tag,N/A,Title SEO friendly
+TC-PDP-032,Verify product URL structure,Ensure SEO friendly URL,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Observe browser URL,N/A,URL readable and structured
+TC-PDP-033,Verify keyboard accessibility,Validate TAB navigation,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Use TAB key,Keyboard input,Elements accessible
+TC-PDP-034,Verify Add to Cart button accessibility,Ensure button accessible,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Navigate via keyboard,N/A,Button accessible
+TC-PDP-035,Verify PDP stability under multiple reloads,Ensure stability,TODO,Gourab Chowdhury,QA Team,Manual / Selenium Automation,Reload PDP multiple times,N/A,Page stable without errors
